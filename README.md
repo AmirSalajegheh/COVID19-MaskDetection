@@ -32,7 +32,7 @@ The dataset used for training includes images of people with and without masks. 
 
 Example images from the dataset:
 
-<img src="Data/sample1.jpg" width="250px">        <img src="Data/sample2.jpg" width="250px">        <img src="Data/sample3.jpg" width="250px">
+<img src="Data/sample1.png" width="250px">        <img src="Data/sample2.png" width="250px">        <img src="Data/sample3.png" width="250px">
 
 
 This dataset ensures the model can generalize to real-world scenarios, including different lighting conditions and occlusions.
