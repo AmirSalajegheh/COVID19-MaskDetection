@@ -21,7 +21,27 @@ mask-detection/
 └───Data
         model.pt       
         output.mp4     
+        # Add your sample images here
 ```
+
+---
+
+## 📊 Dataset
+
+The dataset used for training includes images of people with and without masks. Each image is labeled accordingly to help the YOLOv9 model learn mask detection.
+
+Example images from the dataset:
+
+<img src="Data/sample1.jpg" width="250px">        <img src="Data/sample2.jpg" width="250px">        <img src="Data/sample3.jpg" width="250px">
+
+
+This dataset ensures the model can generalize to real-world scenarios, including different lighting conditions and occlusions.
+
+---
+
+## ⚡ Why YOLOv9?
+
+YOLOv9 was chosen because of its **fast real-time inference** and **high accuracy** in object detection tasks. It performs well in detecting people wearing masks even in crowded scenes, making it ideal for live monitoring applications.
 
 ---
 
@@ -53,6 +73,12 @@ python main.py
 ```
 
 > The output video will be saved in `Data/output.mp4`.
+
+<video width="400" controls>
+  <source src="Data/output.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
 
 ### Train the Model:
 
