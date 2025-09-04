@@ -74,10 +74,7 @@ python main.py
 
 > The output video will be saved in `Data/output.mp4`.
 
-<video width="400" controls>
-  <source src="Data/output.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
+[Watch video](Data/output.mp4)
 
 
 ### Train the Model:
